@@ -4,14 +4,40 @@ html{
 
 .timeline {
   list-style: none;
-  margin-left: 200px;
+  margin-left: 25%;
+  border: 0;
   border-left: #575bb4 solid 4px;
   border-image:
       linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
 }
+
 .body {
+  position: relative;
   background-color: rgb(96, 177, 232);
   padding: 10px;
   border-radius: 6px;
-  color: rgb(245, 246, 244)
+  max-width: 600px;
+}
+
+.date {
+  color: rgb(228, 230, 242);
+  position: relative;
+  left: -125px;
+  up: 125px;
+  font-size: .25rem;
+}
+.timeline i {
+   font-size: 32px;
+   color: rgb(47, 69, 214);
+   position: absolute;
+   left: -23px;
+   top: 100px;
+}
+
+.time {
+  font-size: 50px;
+  color: rgb(56, 150, 171);
+  position: relative;
+  top: -35px;
+  right: 30%;
 }
