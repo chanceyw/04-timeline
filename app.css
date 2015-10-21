@@ -15,6 +15,7 @@ html{
   position: relative;
   background-color: rgb(96, 177, 232);
   padding: 10px;
+  paddint-top: -100px;
   border-radius: 6px;
   max-width: 600px;
 }
@@ -30,7 +31,7 @@ html{
    font-size: 32px;
    color: rgb(47, 69, 214);
    position: absolute;
-   left: -55px;
+   left: -60px;
    top: -8px;
    background: rgb(113, 141, 240);
    padding: 5px;
