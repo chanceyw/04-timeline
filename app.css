@@ -22,16 +22,19 @@ html{
 .date {
   color: rgb(228, 230, 242);
   position: relative;
-  left: -125px;
+  left: -121px;
   up: 125px;
-  font-size: .25rem;
+  font-size: .30rem;
 }
 .timeline i {
    font-size: 32px;
    color: rgb(47, 69, 214);
    position: absolute;
-   left: -23px;
-   top: 100px;
+   left: -55px;
+   top: -8px;
+   background: rgb(113, 141, 240);
+   padding: 5px;
+   border-radius: 50%;
 }
 
 .time {
@@ -39,5 +42,5 @@ html{
   color: rgb(56, 150, 171);
   position: relative;
   top: -35px;
-  right: 30%;
+  right: 32%;
 }
