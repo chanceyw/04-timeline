@@ -5,10 +5,11 @@ html{
 .timeline {
   list-style: none;
   margin-left: 25%;
-  border: 0;
+  border: 8;
   border-left: #575bb4 solid 4px;
-  border-image:
-      linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
+  border-image:linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
+  text-align: center;
+
 }
 
 .body {
@@ -22,26 +23,33 @@ html{
 
 .date {
   color: rgb(228, 230, 242);
-  position: relative;
+  position: absolute;
   left: -121px;
-  up: 125px;
+
   font-size: .30rem;
 }
 .timeline i {
-   font-size: 32px;
+   font-size: 29px;
    color: rgb(47, 69, 214);
    position: absolute;
-   left: -60px;
+   left: -59px;
    top: -8px;
    background: rgb(113, 141, 240);
    padding: 5px;
    border-radius: 50%;
+   border: 4px solid rgb(9, 74, 135);
 }
 
 .time {
   font-size: 50px;
   color: rgb(56, 150, 171);
-  position: relative;
-  top: -35px;
-  right: 32%;
+  position: absolute;
+  top: 7px;
+  left: -189px;
+}
+.fa.fa-mobile {
+  position: absolute;
+  left: -59px;
+  padding: 6px;
+
 }
