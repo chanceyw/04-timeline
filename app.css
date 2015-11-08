@@ -1,55 +1,95 @@
 html{
   font-family: sans-serif;
 }
+.triangle {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 8.5px 14.7px 8.5px 0;
+border-color: transparent #81C0EA transparent transparent;
+position: relative;
+right: 32px;
+top: 0px;
+}
 
 .timeline {
   list-style: none;
   margin-left: 25%;
+  margin-top: 20px;
   border: 8;
-  border-left: #575bb4 solid 4px;
-  border-image:linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
+  border-left: #B9DCF5 solid 4px;
+  border-image:linear-gradient(to bottom, #B9DCF5, #B9DCF5) 1 100%;
   text-align: center;
 
 }
-
-.body {
-  position: relative;
-  background-color: rgb(96, 177, 232);
-  padding: 10px;
-  paddint-top: -100px;
-  border-radius: 6px;
-  max-width: 600px;
+.content {
+  color: #FFFFFD;
+  text-align: left;
+  font-size: 15px;
 }
 
-.date {
-  color: rgb(228, 230, 242);
-  position: absolute;
-  left: -121px;
+.title {
+  color: #FFFFFD;
+  text-align: left;
+}
 
+.body  {
+  position: relative;
+  background-color: #81C0EA;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  max-width: 600px;
+  padding-bottom: 60px;
+}
+
+
+
+.date {
+  color: #7EBEE9;
+  position: absolute;
+  left: -100px;
+  top: 10px;
+  color: #CAD8E3;
   font-size: .30rem;
 }
 .timeline i {
-   font-size: 29px;
-   color: rgb(47, 69, 214);
+
+   color: #FFFFFF;
    position: absolute;
    left: -59px;
-   top: -8px;
-   background: rgb(113, 141, 240);
+   top: 8px;
+   background: #61A5D6;
    padding: 5px;
    border-radius: 50%;
-   border: 4px solid rgb(9, 74, 135);
+   border: 4px solid #B9DCF5;
+
 }
 
 .time {
-  font-size: 50px;
-  color: rgb(56, 150, 171);
+  font-size: 2rem;
+  color: #7EBEE9;
   position: absolute;
-  top: 7px;
-  left: -189px;
+  top: 10px;
+  left: -148px;
 }
-.fa.fa-mobile {
-  position: absolute;
-  left: -59px;
-  padding: 6px;
 
+li:nth-of-type(2n) .time {
+   color: #5A9CCB;
+ }
+
+ ul:nth-of-type(2n) li {
+    background-color: #5A9CCB;
+  }
+.fa.fa-mobile {
+font-size: 20px;
+
+width: 17px;
+
+}
+
+.fa fa-home {
+  font-size: 20px;
+  width: 17px;
+  height: 10px;
 }
