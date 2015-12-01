@@ -74,11 +74,15 @@ top: 0px;
   left: -148px;
 }
 
-li:nth-of-type(2n) .time {
-   color: #5A9CCB;
+.body:nth-of-type(2n) .time {
+  color: #5A9CCB;
  }
 
- ul:nth-of-type(2n) li {
+.body:nth-of-type(2n) .triangle {
+  border-color: transparent #5A9CCB transparent transparent;
+ }
+
+.body:nth-of-type(2n) {
     background-color: #5A9CCB;
   }
 .fa.fa-mobile {
@@ -88,7 +92,7 @@ width: 17px;
 
 }
 
-.fa fa-home {
+.fa .fa-home {
   font-size: 20px;
   width: 17px;
   height: 10px;
